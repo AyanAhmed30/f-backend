@@ -1,0 +1,38 @@
+    fastprint_backend/
+    │
+    ├── fastprint_backend/         # Main project folder
+    │   ├── __init__.py
+    │   ├── settings.py
+    │   ├── urls.py
+    │   ├── asgi.py
+    │   └── wsgi.py
+    │
+    ├── users/                     # Handles user data (via Firebase/Auth0 ID mapping)
+    │   ├── models.py
+    │   ├── serializers.py
+    │   ├── views.py
+    │   └── urls.py
+    │
+    ├── books/                     # Book creation and metadata
+    │   ├── models.py
+    │   ├── serializers.py
+    │   ├── views.py
+    │   └── urls.py
+    │
+    ├── orders/                    # Checkout and fulfillment
+    │   ├── models.py
+    │   ├── serializers.py
+    │   ├── views.py
+    │   └── urls.py
+    │
+    ├── promos/                    # Promo codes
+    │   ├── models.py
+    │
+    ├── shipping/                  # Shipping and rate calculations
+    │   ├── models.py
+    │
+    ├── manage.py
+    ├── requirements.txt           # Add dependencies here
+    └── .env                       # Will contain DB credentials
+    
+

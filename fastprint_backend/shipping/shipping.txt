@@ -1,0 +1,356 @@
++++++++++++++++++++API 1 ++++++++++++++++++++++++++++++++++++
+{
+  "account": {
+    "billing_address": {
+      "city": "New York",
+      "company_name": "Test Company",
+      "contact_email": "fastprintguys@gmail.com",
+      "contact_name": "Test contact name",
+      "contact_phone": "0",
+      "country_alpha2": "US",
+      "default_for": {
+        "pickup": false,
+        "billing": true,
+        "sender": false,
+        "return": false
+      },
+      "id": "c4abf6d0-66a3-4a4c-83c9-9d9cfae99a34",
+      "line_1": "123 Test Road",
+      "line_2": null,
+      "postal_code": "10001",
+      "state": null,
+      "status": "active"
+    },
+    "credit": {
+      "available_balance": 0.0,
+      "balance": 0.0,
+      "currency": "USD"
+    },
+    "easyship_company_id": "CUS816712",
+    "name": "Fast Print Guys",
+    "payment_sources": []
+  },
+  "meta": {
+    "request_id": "e0f7eb6f24d1e30115df799a4dca80eb"
+  }
+}
+https://api.easyship.com/2024-09/account
+GET 
+
++++++++++++++++++  API 2  +++++++++++++++++++++++++++++++++++++++++++++++
+{
+  "couriers": [
+    {
+      "id": "b2b9f1b7-b808-4abe-905d-f221d55991ab",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/usps.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "USPS"
+    },
+    {
+      "id": "ad915edd-79b2-4113-85df-513f43190cdf",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/easyship.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "Easyship Domestic"
+    },
+    {
+      "id": "3fe2d73f-9d47-4509-a6e6-5fb4cef182c3",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": "*****9585",
+        "api_key": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/dhl.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "DHL"
+    },
+    {
+      "id": "9403c82f-177f-4abc-9bfa-be1d09f13a48",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/seko.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "OmniParcel"
+    },
+    {
+      "id": "3e2c6f7e-3370-40e4-92d9-c085d1c46125",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/skypostal.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "SkyPostal"
+    },
+    {
+      "id": "2127c55c-49d4-4e8b-b928-dbd80c70c22e",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/directlink.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "DirectLink"
+    },
+    {
+      "id": "376354ec-497a-4b57-be3c-459237f5be55",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/tnt.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "TNT"
+    },
+    {
+      "id": "a01e6d46-5fc8-4a2d-a5d7-dd8ca7b93ef0",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/sf-express.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "SFExpress"
+    },
+    {
+      "id": "3a5a23ff-ecd1-4b9c-aa3e-0eee8f265e3d",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/dpd.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "DPD"
+    },
+    {
+      "id": "d6b1ce5e-ab50-436a-aeb6-4ad181fdebf5",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": "**A9V7",
+        "site_id": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/ups.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "UPS"
+    },
+    {
+      "id": "d3da4759-c219-4751-aba0-0ac111fc452e",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/apc.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "APC"
+    },
+    {
+      "id": "c2028fd9-cfad-41e3-bb50-1bd13b8c4707",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/aramex.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "Aramex"
+    },
+    {
+      "id": "eb4a4c81-5175-4312-83a3-723efe760c5e",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/dhl-ecommerce.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "DHL eCommerce"
+    },
+    {
+      "id": "a69664f1-1ccc-48f0-9bd5-76c549e7477b",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/usps.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "USPS"
+    },
+    {
+      "id": "2f617565-6aa1-4e22-a243-3bbdf02803ed",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/usps.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "USPS"
+    },
+    {
+      "id": "6aeafba1-c072-4f36-b7c7-2b54a66b9307",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": null,
+      "origin_country_alpha2": "US",
+      "umbrella_name": "LaserShip"
+    },
+    {
+      "id": "c90ff733-7890-42ea-bfd8-7c961607e021",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "api_key": "****************************PBtj",
+        "id": "************************asys"
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/sendle.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "Sendle"
+    },
+    {
+      "id": "3b5fc1ec-047d-4585-b892-30b790811dec",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": null,
+      "origin_country_alpha2": "US",
+      "umbrella_name": "Dummy"
+    },
+    {
+      "id": "03b095d4-d5e0-4033-9fa0-734edbc62cb3",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/fedex.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "FedEx"
+    },
+    {
+      "id": "a87b69e8-d565-48a3-aa41-0f63cd314dff",
+      "auth": {
+        "errors": [],
+        "state": "verified"
+      },
+      "easyship_courier": true,
+      "filtered_account_details": {
+        "account_number": null,
+        "site_id": null
+      },
+      "logo_url": "https://storage.googleapis.com/easyship-assets/website/courier-logos/color-img/fedex.png",
+      "origin_country_alpha2": "US",
+      "umbrella_name": "FedEx"
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "next": 2,
+      "count": 60
+    },
+    "request_id": "87452ddd9322e40ec40cf160df0d747b"
+  }
+}
+https://public-api.easyship.com/2024-09/couriers (GET)
+
+
+++++++++++++++++ API 3 ++++++++++++++++++++++++++++++++++++
